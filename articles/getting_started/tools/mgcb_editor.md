@@ -35,4 +35,21 @@ dotnet mgcb-editor
 > dotnet tool restore
 > ```
 
+### For macOS Users
+
+The MGCB Editor requires manual installation via the terminal. Use the following command to install the MGCB Editor globally on your system:
+
+```
+dotnet tool install --global dotnet-mgcb-editor-mac
+```
+
+After installation, you can start the MGCB Editor by executing:
+
+```
+mgcb-editor-mac
+```
+>[!NOTE]
+>Ensure that you have the .NET SDK installed on your system before running the above commands. You can download it from the [.NET official website](https://dotnet.microsoft.com/zh-cn/download).
+
+
 See [Using MGCB Editor](../content_pipeline/using_mgcb_editor.md) for more information.
